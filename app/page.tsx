@@ -24,7 +24,7 @@ export default function Home() {
             width={200}
             height={50}
             priority
-            style={{ width: 'auto', height: '44px' }}
+            style={{ width: 'auto', height: '44px', filter: 'invert(1)' }}
           />
           <a
             href="#demo"
@@ -36,8 +36,8 @@ export default function Home() {
       </nav>
 
       {/* ─── HERO ────────────────────────────────────────────────── */}
-      <section className="min-h-[88vh] flex items-start">
-        <div className="max-w-7xl mx-auto px-6 pt-24 pb-20">
+      <section className="min-h-[60vh]">
+        <div className="max-w-7xl mx-auto px-6 pt-20 pb-16">
           <div className="max-w-3xl">
             <div className="inline-flex items-center gap-2.5 border border-neutral-800 px-3 py-1 mb-10">
               <span className="w-1.5 h-1.5 rounded-full bg-green-500" />
@@ -232,13 +232,13 @@ export default function Home() {
             alt="LOBORAM"
             width={180}
             height={44}
-            style={{ width: 'auto', height: '28px' }}
+            style={{ width: 'auto', height: '28px', filter: 'invert(1)' }}
           />
           <a
-            href="mailto:info@loboram.com"
+            href="mailto:lrsoft@loboram.com"
             className="text-neutral-600 text-sm hover:text-neutral-400 transition-colors duration-150 font-mono"
           >
-            info@loboram.com
+            lrsoft@loboram.com
           </a>
           <p className="text-neutral-700 text-sm">© 2026 LOBORAM. All rights reserved.</p>
         </div>
