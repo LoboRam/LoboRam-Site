@@ -138,7 +138,7 @@ export default function Home() {
         <div className="max-w-xl mx-auto px-6">
           <h2 className="text-3xl font-bold tracking-tight mb-3">See it on your drawings.</h2>
           <p className="text-neutral-500 mb-12 leading-relaxed">
-            We'll run LOBORAM on a real print from your shop.
+            See how LOBORAM handles your drawings.
           </p>
 
           <form
